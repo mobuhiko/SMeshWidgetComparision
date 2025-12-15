@@ -8,6 +8,7 @@ From [GitHub | dantreble/MeshWidgetExample](https://github.com/dantreble/MeshWid
 
 ### Files
 
+ParticleWidget.h/cpp
 
 ## Method 2 - MyMesh
 
@@ -15,18 +16,24 @@ From [知乎 | 直接在UMG上渲染模型](https://zhuanlan.zhihu.com/p/3932176
 
 ### Files
 
-## Method 3 - StaticMesh
+MyMeshWidget.h/cpp
 
-### Files
+## Method 3 - StaticMesh
 
 From [知乎 | 虚幻5渲染编程(UI篇)第一卷: Slate渲染框架并通过为UMG拓展MeshUI了解Slate的图元阶段](https://zhuanlan.zhihu.com/p/387752531)
 
+### Files
+
+StaticMeshWidget.h/cpp
+
 ## Result
+
 ![Ret1](https://github.com/mobuhiko/SMeshWidgetComparision/blob/main/Image/SMeshWidgetComparision1.png)
 
 It looks like Method 3 does not work with particle mesh, but sometimes the mesh is actually rendered in a weired way (that line). 
 It sometimes appears by changing the alignment of the slot. 
 If you hide that widget, the line will also be hidden. 
+
 ![Ret2](https://github.com/mobuhiko/SMeshWidgetComparision/blob/main/Image/SMeshWidgetComparision2.png)
 
 ## Conclusion
