@@ -36,13 +36,13 @@ I downloaded the project from GitHub mentioned in Method 1. And
  - break the link of screen position? node to stop its rotation, and change the color to blue
  - apply them to three methods (so 6 widgets in total)
 
-![Ret1](https://github.com/mobuhiko/SMeshWidgetComparision/blob/main/Image/SMeshWidgetComparision1.png)
+![Ret1](https://github.com/mobuhiko/SMeshWidgetComparision/blob/main/Image/SMeshWidgetComparison1.png)
 
 It looks like Method 3 does not work with particle mesh, but sometimes the mesh is actually rendered in a weird way (that line, and it is rotating). 
 It sometimes appears by changing the alignment of the slot. 
 If you hide that widget, the line will also be hidden. 
 
-![Ret2](https://github.com/mobuhiko/SMeshWidgetComparision/blob/main/Image/SMeshWidgetComparision2.png)
+![Ret2](https://github.com/mobuhiko/SMeshWidgetComparision/blob/main/Image/SMeshWidgetComparison2.png)
 
 For Method 3, I do not understand why it works, and it seems that it does not use mesh instance in code, which may lead to performance issues in certain scenarios, although this has not been measured. 
 
